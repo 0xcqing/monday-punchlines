@@ -24,7 +24,7 @@ mkdirSync(out, { recursive: true });
  * not only whitespace, to pass the make.fun gate scorer.
  * @type {string}
  */
-const joke = "Monday mornings are like a code review from your least-favorite senior dev — nobody wants to be there, nobody learns anything, and somehow your weekend is still the one being blamed.";
+const joke = "Monday mornings are like PR review from your grumpiest senior — nobody wants to be there, nothing gets merged, and your weekend commit somehow gets the blame.";
 
 // Write the joke as entry.txt for the judge model to score against other entries.
 writeFileSync(join(out, 'entry.txt'), joke, 'utf-8');
